@@ -25,7 +25,7 @@ We recommend to know the following basis to successfully figure out features the
 - Development Environment (we can suggest [Visual Studio Code](https://code.visualstudio.com/) and [PyCharm](https://www.jetbrains.com/pycharm/). We highly **do not** recommend Replit specifically for Discord bots development due to some reasons)
 
 ## Learning Route
-1. Libraries Installation and Encironment Setup
+1. Libraries Installation and Environment Setup
 2. Basic Bot
 3. Commands
 4. Events Listening
