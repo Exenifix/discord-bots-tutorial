@@ -22,6 +22,7 @@ This should create a virtual environment we will need for easier modules managem
 5. Run `pip install -U pip` to update the pip
 6. Run `pip install disnake` to install the library for making discord bots.
 > In this tutorial we are going to use disnake - a fork of discord.py that is easy to understand compared to some others. You may also use `nextcord` which is very similar to disnake or the original library — `discord.py`, however its implementation of slash commands is different and is not liked by many.
+> Creating a venv is recommended but is not required. You may use other tool like poetry or not use dependencies control tool at all, although it is not a good practice.
 #### Troubleshooting
 1. You may get "py is not recognised as a command, executable, ..." error. It might happen because you didn't add Python to PATH on installation. The solution to this is first to try to replace `py` with `python` and `python3`, if these both fail, then reinstall Python or add it to PATH [manually](https://datatofish.com/add-python-to-windows-path/). 
 2. You may get "scripts execution is prohibited in this system". To resolve this issue, run Windows PowerShell with administrator permissions and execute the following command:

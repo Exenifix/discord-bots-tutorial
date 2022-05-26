@@ -31,5 +31,5 @@ We recommend to know the following basis to successfully figure out features the
 4. Events Listening
 5. Errors Handling
 6. Cogs
-7. Bot Subclassing
-8. Database Integration
+7. Database Integration
+8. Hosting Bot
