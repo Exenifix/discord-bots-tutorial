@@ -52,6 +52,7 @@ It does have some small differences with the text commands
 1. There's a different decorator for slash commands - `@bot.slash_command`
 2. It is highly encouraged to provide description to a slash command because if you don't, it will look unnice
 <img src="https://github.com/Exenifix/discord-bots-tutorial/blob/master/images/no-desc-command.jpg">
+
 3. Slash commands **do not support aliasing**. If you really want to implement it (although nobody does that), you may decorate the function with several decorators but with different `name` param values
 4. Instead of `ctx: commands.Context` we use `inter: disnake.ApplicationCommandInteraction`. We name the argument differently because its type is different as well. The `ApplicationCommandInteraction` is very similar to `Context` although they do have some differences
 5. The message is sent through *interaction* and is not a common message. Read about the send method [here](https://docs.disnake.dev/en/latest/api.html#disnake.Interaction.send)
