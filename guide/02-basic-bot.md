@@ -98,6 +98,7 @@ async def on_ready():
 log.info("Starting the bot...")
 bot.run(get_token())
 ```
+> Please notice that any code after `bot.run()` will not be executed until the bot is shutted down.
 
 If everything went fine, you will receive "Bot is ready!" message in the console and your bot will come online! You may also change its activity by adding this into `on_ready`:
 ```py

@@ -17,6 +17,7 @@ You will also need a Python Interpreter with version not lower than 3.8, as it i
 $ py -m venv venv
 ```
 This should create a virtual environment we will need for easier modules management.
+
 3. Press CTRL + SHIFT + P and pick "Select Python Interpreter", then select one with "venv"
 4. Open another terminal. The command string should have `(venv)` at the beginning. 
 5. Run `pip install -U pip` to update the pip

@@ -28,8 +28,9 @@ We recommend to know the following basis to successfully figure out features the
 1. Libraries Installation and Environment Setup
 2. Basic Bot
 3. Commands
-4. Events Listening
-5. Errors Handling
-6. Cogs
-7. Database Integration
-8. Hosting Bot
+4. Converters
+5. Events Listening
+6. Errors Handling
+7. Cogs
+8. Database Integration
+9. Hosting Bot
